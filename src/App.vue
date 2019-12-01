@@ -1,14 +1,6 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/user">用户列表</router-link>|
-      <router-link to="/useradd">/useradd</router-link>
-      
-      <router-link to="/login">/登录</router-link>
-    </div>
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>
 
@@ -19,6 +11,9 @@
 }
 html,
 body {
+  font-size: 15px !important;
+  line-height: 2 !important;
+  
   .size;
   overflow: hidden;
   margin: 0;

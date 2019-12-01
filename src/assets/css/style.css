@@ -1,0 +1,10 @@
+/* toastr样式 */
+.toast-top-center {
+  top: 10% !important;
+}
+
+.menuActiveStyle{
+  background: blue;
+  font-size: 20px;
+  color: #fff;
+}
